@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+     <!-- custom css -->
+    <link rel="stylesheet" href="style.css">  
+    <!-- font awesome -->
+    <link rel="stylesheet" href="vendor/fontawesome-free/css/all.css">
+</head>
+<body>
+    <div class="changer">
+        <span style="background-color: #000000;"></span>
+        <span style="background-color: pink;"></span>
+    </div>
+    <!-- start of header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#home"><span>L</span>oyal</a> 
+            </div>
+            <div class="shoppingCart">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <button class="navToggler"><span></span></button>
+            <nav class="nav">
+                <ul>
+                    <li class="list"><a href="#home">Home</a></li>
+                    <li class="list"><a href="#about">About</a></li>
+                    <li class="list"><a href="#services">Services</a></li>
+                    <li class="list"><a href="#products">Products</a></li>
+                    <li class="list"><a href="#cart">Cart</a></li>
+                    <li class="list"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- start of main -->
+    <main class="main" id="index"> 
+        <div class="homeBackground"></div>
+        <div class="row minHeight">
+            <div class="mainText">
+            <div class="homeBox"></div>
+            <h1>Loyal Restaurant</h1>
+            <p>At Loyal Restaurant,we offer the best food delicaces in the country.We are...</p>
+            <a href="#foods" class="btn btnTwo"> Our foods</a>
+        </div>
+        </div>
+        </div>
+    </main>
+<!-- start of about page -->
+<section id="about" class="aboutSection">
+    <div class="title">
+        <h2>Who Are We ?</h2>
+    </div>
+    <div class="aboutContainer">
+        <div class="aboutText">
+             <h4>About <span>Us</span></h4>
+             <p>Loyal Restaurant is a delicacy hotel located along Thika Super Highway around 5km from CBD.We provide fresh quality meals and process delivery within a 10km radius.Order now to have a taste of our delicacies </p>
+             <a href="#products" class="btn btnTwo">Shop Now</a>
+        </div>
+        <div class="aboutVida">
+            <video src="video/chef cooking.mp4"  autoplay loop muted></video>
+        </div>
+    </div>
+</section>
+
+<!-- services sectiom -->
+<section class="serviceSection" id="services">
+    <div class="title">
+        <h3>What We Do ?</h3>
+    </div>
+    <div class="serviceContainer">
+        <div>
+            <i class="fas fa-car"></i>
+            <p>Free Delivery</p>
+        </div>
+        <div>
+            <i class="fas fa-phone"></i>
+            <p>24hrs Support</p>
+        </div>
+        <div>
+            <i class="fas fa-envelope"></i>
+            <p>Email Updates</p>
+        </div>
+    </div>
+</section>
+
+<!-- Start of contact Section -->
+<section class="contactSection" id="contact">
+<div class="title">
+    <h3>Get In Touch</h3>
+</div>
+<div class="contactContainer">
+    <div class="contactText">
+        <div>
+            <i class="fas fa-phone"></i>
+            <p>0768723231</p>
+        </div>
+        <div>
+            <i class="fas fa-envelope"></i>
+            <p>kenkamau244@gmail.com</p>
+        </div>
+        <div>
+            <i class="fas fa-map-marker"></i>
+            <p>Located Along Thika Super Highway</p>
+        </div>
+        </div>
+        <div class="contactForm">
+            <form>
+                <div>
+                <label for="username">Your Name</label><br>
+                <input type="text" id="username">
+                </div>
+                <div>
+                    <label for="email">Your email</label><br>
+                    <input type="emial" id="email">
+                </div>
+                <div>
+                    <label for="message">Your message</label><br>
+                    <textarea id="message" cols="50" rows="10"></textarea>
+                </div>
+                <div class="btnDiv">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footerContainer">
+        <div class="subscription">
+            <p>Subscribe to recieve our emails</p>
+            <input type="text">
+            <button class="btn btnTwo">Subscribe</button>
+        </div>
+        <div class="availability">
+            <h2>Mon - Sat</h2>
+            <p>8:00am - 1p:pm</p>
+        </div>
+        <div class="redirect">
+            <a href="#index"><i class="fas fa-chevron-up"></i></a>
+        </div>
+    </div>
+    <div class="last"> 
+        <hr>
+        <p><small>&copy;copyright 2022, Wizard_Ken</small></p>
+    </div>
+</footer>
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+</html>
